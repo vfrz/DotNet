@@ -54,7 +54,10 @@ namespace DotNetGraph.Tests.Node
             {
                 Elements =
                 {
-                    new DotNode("TestNode", Color.Red)
+                    new DotNode("TestNode")
+                    {
+                        Color = Color.Red
+                    }
                 }
             };
 
